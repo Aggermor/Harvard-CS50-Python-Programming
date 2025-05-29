@@ -12,7 +12,4 @@ def version_2():
         print("meow")
         count += 1
 
-def version_3():
-    pass
-
 main()
