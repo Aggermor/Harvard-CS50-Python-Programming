@@ -10,4 +10,17 @@
 | **5**  | If/Else Comparison                 | `compare.py`    |
 | **6**  | Modulo Remainder                   | `parity.py`     |
 | **7**  | Match Statement                    | `house.py`      |     
-| **7**  | Looping                            | `cat.py`        |   
+| **7**  | While Loop and Iterating           | `cat.py`        |    
+| **8**  | For Loop and Lists                 | `names.py`      |
+
+    
+      
+<!--       
+| **9**  | Dictionaries                       | `phonebook.py`  |
+| **10** | Tuples                             | `coordinates.py`|
+| **11** | Sets                               | `unique.py`     |  
+| **12** | Exceptions                         | `exceptions.py` |
+| **13** | Classes and Objects                | `bank.py`       |
+| **14** | Inheritance                        | `inheritance.py`|
+| **15** | Modules and Packages               | `modules.py`    |
+-->
