@@ -6,12 +6,12 @@
 | **1**  | User Input and Printing            | `hello.py`      |
 | **2**  | Arithmetic and Formatting Numbers  | `calculator.py` |
 | **3**  | Comparing Numbers                  | `score.py`      |
-| **4**  | Functions                          | `square.py`     |
+| **4**  | Functions                         | `square.py`     |
 | **5**  | If/Else Comparison                 | `compare.py`    |
 | **6**  | Modulo Remainder                   | `parity.py`     |
 | **7**  | Match Statement                    | `house.py`      |     
 | **7**  | While Loop and Iterating           | `cat.py`        |    
-| **8**  | For Loop and Lists                 | `names.py`      |
+| **8**  | For Loop and Lists                 | `dog.py`        |
 
     
       
@@ -23,4 +23,4 @@
 | **13** | Classes and Objects                | `bank.py`       |
 | **14** | Inheritance                        | `inheritance.py`|
 | **15** | Modules and Packages               | `modules.py`    |
--->
+-->  
