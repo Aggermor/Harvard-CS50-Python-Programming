@@ -2,7 +2,7 @@
 [Harvard CS50’s Introduction to Programming with Python – Full University Course](https://www.youtube.com/watch?v=nLRL_NcnK-4)
     
 
-| #  | Topic                              | Filename        |
+|    | Topic                              | Filename        |
 |----|------------------------------------|-----------------|
 | **1**  | User Input and Printing            | `hello.py`      |
 | **2**  | Arithmetic and Formatting Numbers  | `calculator.py` |
