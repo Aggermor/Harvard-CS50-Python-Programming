@@ -17,3 +17,4 @@ except ValueError:
 else:
     print(f"x is {x}")
 
+print(f"I can still use x '{x}'") # you can still use {x} AFTER an else error handling. NOT BEFORE.
