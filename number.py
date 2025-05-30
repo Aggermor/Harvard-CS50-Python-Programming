@@ -18,3 +18,5 @@ else:
     print(f"x is {x}")
 
 print(f"I can still use x '{x}'") # you can still use {x} AFTER an else error handling. NOT BEFORE.
+
+# https://www.youtube.com/watch?v=nLRL_NcnK-4&t=12104s&ab_channel=freeCodeCamp.org
