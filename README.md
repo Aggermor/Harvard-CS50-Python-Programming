@@ -15,7 +15,8 @@
 | **9**  | Continue and Break Loops           | `pilot.py`      |
 | **10** | Lists                              | `students.py`   |
 | **11** | Dictionaries                       | `hogwarts.py`   |    
-| **11** | Nesting                            | `mario.py`      |   
+| **11** | Nesting                            | `mario.py`      |    
+| **12** | Exceptions: Try/Except/Else        | `number.py`     |   
       
 <!--       
 | **9**  | Dictionaries                       | `phonebook.py`  |
