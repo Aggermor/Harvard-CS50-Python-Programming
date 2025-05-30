@@ -22,7 +22,7 @@ print(f"Pi is approximately {pi:.4f} in four decimal places.")
 print(f"Pi is approximately {pi:.6f} in six decimal places.")
 
 pi = round(pi, 2)  # Round pi to two decimal places
-print(f"Rounded Pi: {pi}")
+print(f"Rounded Pi: {pi}")  
 
 num = 1234.5678
 print(f"Formatted number: {num:,.2f}")  # Format with commas and two decimal places
