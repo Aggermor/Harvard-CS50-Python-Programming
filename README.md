@@ -16,7 +16,7 @@
 | **10** | Lists                              | `students.py`   |
 | **11** | Dictionaries                       | `hogwarts.py`   |    
 | **11** | Nesting                            | `mario.py`      |    
-| **12** | Exceptions: Try/Except/Else        | `number.py`     |   
+| **12** | Exception Handling: Try/Except/Else| `number.py`     |   
       
 <!--       
 | **9**  | Dictionaries                       | `phonebook.py`  |
