@@ -14,7 +14,7 @@
 | **8**  | For Loop and Lists                 | `dog.py`        |    
 | **9**  | Continue and Break Loops           | `pilot.py`      |
 | **10** | Lists                              | `students.py`   |
-| **11** | Dictionaries                       | `placeholder.py`|   
+| **11** | Dictionaries                       | `hogwarts.py`   |   
       
 <!--       
 | **9**  | Dictionaries                       | `phonebook.py`  |
