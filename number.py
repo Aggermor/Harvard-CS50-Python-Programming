@@ -13,10 +13,11 @@ input = input("Enter an intager for x: ")
 try:
     x = int(input)
 except ValueError:
-    print(f"'{input}' is not an intager!") # cannot use {x} because it would throw an error before being assigned.
+    print(f"'{input}' is not an intager!")      # cannot use {x} because it would throw an error before being assigned.
 else:
     print(f"x is {x}")
 
-print(f"I can still use x '{x}'") # you can still use {x} AFTER an else error handling. NOT BEFORE.
+print(f"I can still use x '{x}'")               # you can still use {x} AFTER an else error handling. NOT BEFORE.
 
-# https://www.youtube.com/watch?v=nLRL_NcnK-4&t=12104s&ab_channel=freeCodeCamp.org
+# https://youtu.be/nLRL_NcnK-4?t=16211
+# around this time?
