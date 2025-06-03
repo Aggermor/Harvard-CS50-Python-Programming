@@ -41,8 +41,8 @@ def version_2():
 
 def get_int():
     while True:
+        usr_input = input("Enter an intager: ")
         try:
-            usr_input = input("Enter an intager: ")
             n = int(usr_input)
             # `return n`                            # you can return from here but to be clearer in code I will do it later.
         except ValueError:
