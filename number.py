@@ -8,7 +8,7 @@
 # --> sometimes documentation of a function might suggest what could go wrong.
 
 def main():
-    valid_int = get_int()
+    valid_int = get_int_v3()
     print(f"You entered a valid intager: {valid_int}")
 
 def version_1():
@@ -49,5 +49,21 @@ def get_int():
             print(f"'{usr_input}' is not an intager. Try again...")
         else:
             return n                                # no need to break, the return will exit the loop and the function.
+        
+def get_int_v2():
+    usr_input = input("Enter an intager: ")
+    while True:                                     # loop until a valid integer is entered
+        try:
+            return int(usr_input)                   # try to convert the input to an integer and return it
+        except ValueError:
+            print(f"'{usr_input}' is not an intager. Try again...")
+    
+def get_int_v3():
+    usr_input = input("Enter an intager: ")
+    try:
+        return int(usr_input)
+    except ValueError:
+        print(f"'{usr_input}' is not an intager. Try again...")
+        return get_int_v3()                         # recursive call to get a new input
 
 main()
