@@ -8,7 +8,8 @@
 # --> sometimes documentation of a function might suggest what could go wrong.
 
 def main():
-    version_2()
+    valid_int = get_int()
+    print(f"You entered a valid intager: {valid_int}")
 
 def version_1():
     usr_input = input("Enter an intager for x: ")   # put outside the try because we don't need to try this part.
@@ -37,5 +38,16 @@ def version_2():
             break                                   # break out of the loop if no error occurred        
 
     print(f"{n} is a valid intager.")               # works here too, after the loop has ended.
+
+def get_int():
+    while True:
+        try:
+            usr_input = input("Enter an intager: ")
+            n = int(usr_input)
+            # `return n`                            # you can return from here but to be clearer in code I will do it later.
+        except ValueError:
+            print(f"'{usr_input}' is not an intager. Try again...")
+        else:
+            return n                                # no need to break, the return will exit the loop and the function.
 
 main()
