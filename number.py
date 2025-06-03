@@ -51,8 +51,8 @@ def get_int():
             return n                                # no need to break, the return will exit the loop and the function.
         
 def get_int_v2():
-    usr_input = input("Enter an intager: ")
     while True:                                     # loop until a valid integer is entered
+        usr_input = input("Enter an intager: ")
         try:
             return int(usr_input)                   # try to convert the input to an integer and return it
         except ValueError:
@@ -65,5 +65,14 @@ def get_int_v3():
     except ValueError:
         print(f"'{usr_input}' is not an intager. Try again...")
         return get_int_v3()                         # recursive call to get a new input
+    
+def get_int_v4():
+    while True:
+        usr_input = input("Enter an intager: ")
+        try:
+            return int(usr_input)
+        except ValueError:
+            pass                                        # ignore the error and continue to the next line
+
 
 main()
