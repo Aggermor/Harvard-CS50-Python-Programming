@@ -29,6 +29,6 @@ from sys import argv
 if len(argv) == 1: # Check if no command line arguments are provided, `if not argv[1:]` would also work
     print("Please provide your name as a command line argument.")
 else:
-    full_name = " ".join(argv[1:])
+    full_name = " ".join(argv[1:]) #? the " ". confuses me and also I've never used join before
     print(f"Hello, my name is {full_name}.")
 """
