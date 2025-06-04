@@ -72,7 +72,9 @@ def get_int_v4():
         try:
             return int(usr_input)
         except ValueError:
-            pass                                        # ignore the error and continue to the next line
-
+            pass # ignore the error and continue to the next line
+            # The error is caught, but sometimes we dont want to bother the user with a scary error message.
+            # Instead, we can just ignore the error and continue to the next iteration.
+            # We can also create a log file to log the error for later debugging.
 
 main()
