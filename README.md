@@ -3,16 +3,16 @@
     
 |        | Topic                              | Filename        |
 |--------|------------------------------------|-----------------|
-| **1**  | User Input and Printing            | `hello.py`      |
-| **2**  | Arithmetic and Formatting Numbers  | `calculator.py` |
-| **3**  | Comparing Numbers                  | `score.py`      |
-| **4**  | Functions                          | `square.py`     |
-| **5**  | If/Else Comparison                 | `compare.py`    |
-| **6**  | Modulo Remainder                   | `parity.py`     |
-| **7**  | Match Statement                    | `house.py`      |     
-| **7**  | While Loop and Iterating           | `cat.py`        |    
-| **8**  | For Loop and Lists                 | `dog.py`        |    
-| **9**  | Continue and Break Loops           | `pilot.py`      |
+| **01** | User Input and Printing            | `hello.py`      |
+| **02** | Arithmetic and Formatting Numbers  | `calculator.py` |
+| **03** | Comparing Numbers                  | `score.py`      |
+| **04** | Functions                          | `square.py`     |
+| **05** | If/Else Comparison                 | `compare.py`    |
+| **06** | Modulo Remainder                   | `parity.py`     |
+| **07** | Match Statement                    | `house.py`      |     
+| **07** | While Loop and Iterating           | `cat.py`        |    
+| **08** | For Loop and Lists                 | `dog.py`        |    
+| **09** | Continue and Break Loops           | `pilot.py`      |
 | **10** | Lists                              | `students.py`   |
 | **11** | Dictionaries                       | `hogwarts.py`   |    
 | **12** | Nesting                            | `mario.py`      |    
