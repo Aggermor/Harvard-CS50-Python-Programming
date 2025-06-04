@@ -37,3 +37,9 @@ shuffle(deck)  # Shuffle the deck of cards
 print(deck)
 
 # ----------------------------------- # 
+from statistics import mean, median, mode # You can import multiple functions from a module in one line.
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+avg = mean(numbers)  # Calculate the mean of the numbers
+med = median(numbers)  # Calculate the median of the numbers
+# https://youtu.be/nLRL_NcnK-4?t=18630
