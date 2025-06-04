@@ -15,8 +15,9 @@
 | **9**  | Continue and Break Loops           | `pilot.py`      |
 | **10** | Lists                              | `students.py`   |
 | **11** | Dictionaries                       | `hogwarts.py`   |    
-| **11** | Nesting                            | `mario.py`      |    
-| **12** | Exception Handling: Try/Except/Else| `number.py`     |   
+| **12** | Nesting                            | `mario.py`      |    
+| **13** | Exception Handling: Try/Except/Else| `number.py`     |     
+| **14** | Libraries/Modules/Import: Random   | `generate.py`   |  
       
 <!--       
 | **9**  | Dictionaries                       | `phonebook.py`  |
