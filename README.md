@@ -19,6 +19,7 @@
 | **13** | Exception Handling: Try/Except/Else| `number.py`     |     
 | **14** | Libraries/Modules/Import: Random   | `generate.py`   |    
 | **15** | Cmd-Line Arguements sys.argv Module| `name.py`       |  
+| **16** | Packages/PyPI/pip/cowsay           | `cowsay.py`     |  
       
 <!--       
 | **9**  | Dictionaries                       | `phonebook.py`  |
