@@ -9,7 +9,7 @@
 from sys import argv # Importing argv from the sys module to handle command line arguments
 
 def main():
-    v3()
+    v4()
 
 def v1():
     # We can use try-except to handle the case where no command line argument is provided 
@@ -48,5 +48,22 @@ def v3():
 
     # Print the greeting with first and last name.
     print(f"Hello, my name is {argv[1]}.")
+
+def v4():
+    from sys import argv
+    from sys import exit
+
+    # Check for errors in command line arguments
+    if len(argv) < 2:
+        exit("No arguments provided. Please provide your first name.")
+
+    for arg in argv[1:]: # slice the list to get a subset of the list starting from index 1
+        print(f"Hello, my name is {arg}.")
+
+# I don't think I knew that a negative number in a slice means from the end of the list.
+# `argv[1:]` means to take all elements from index 1 to the end of the list. Omit the end index.
+# `argv[1:3]` means to take elements from index 1 to index 2 (not including index 3).
+# `argv[1:-1]` means to take elements from index 1 to the *second last element* of the list.
+# `argv[-3:-1]` means to take elements from the third last element to the second last element of the list.
 
 main()
