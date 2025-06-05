@@ -8,7 +8,7 @@
 #! you cannot name your file `cowsay.py` because it will conflict with the `cowsay` package you are trying to import.
 # `$ mv cowsay.py say.py` This terminal command renames the file to avoid conflict with the `cowsay` package.
 
-import cowsay as say
+import cowsay
 import sys
 
 def main():
@@ -16,6 +16,6 @@ def main():
 
 def v1():
     if len(sys.argv) == 2:
-        say.cow("hello, " + sys.argv[1] + "!")
+        cowsay.cow("hello, " + sys.argv[1] + "!")
 
 main()
