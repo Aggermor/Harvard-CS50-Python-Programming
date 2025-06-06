@@ -19,8 +19,9 @@
 | **13** | Exception Handling: Try/Except/Else   | `number.py`     |     
 | **14** | Libraries/Modules/Packages/'import'   | `generate.py`   |    
 | **15** | Cmd-Line Arguements sys.argv Module   | `name.py`       |  
-| **16** | Packages/PyPI/pip/cowsay              | `say.py`        |  
-| **17** | API/'requests' Package/JSON           | `say.py`        |  
+| **16** | Packages/PyPI/pip/cowsay              | `cow_say.py`    |  
+| **17** | API/'requests' Package/JSON           | `itunes.py`     |  
+| **18** | Creating My On Module                 | `my_say.py      |
       
 <!--       
 | **9**  | Dictionaries                       | `phonebook.py`  |

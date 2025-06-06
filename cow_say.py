@@ -11,7 +11,7 @@
 # Library is a collection of packages and modules that provide specific functionality, such as data manipulation, web development, or machine learning.
 
 #! you cannot name your file `cowsay.py` because it will conflict with the `cowsay` package you are trying to import.
-# `$ mv cowsay.py say.py` This terminal command renames the file to avoid conflict with the `cowsay` package.
+# `$ mv cowsay.py cow_say.py` This terminal command renames the file to avoid conflict with the `cowsay` package.
 
 import cowsay
 import sys
