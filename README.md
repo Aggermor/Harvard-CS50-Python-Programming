@@ -7,7 +7,7 @@
 | **02** | Arithmetic and Formatting Numbers         | `calculator.py` |
 | **03** | Comparing Numbers                         | `score.py`      |
 | **04** | Functions                                 | `square.py`     |
-| **05** | If/Else Comparison                        | `compare.py`    |
+| **05** | If / Else Conditions                      | `compare.py`    |
 | **06** | Modulo Remainder                          | `parity.py`     |
 | **07** | Match Statement                           | `house.py`      |     
 | **07** | While Loop and Iterating                  | `cat.py`        |    
