@@ -1,0 +1,7 @@
+# Ignore VS Code settings
+.vscode/
+.pytest_cache/
+
+# Ignore Python bytecode and cache folders
+__pycache__/
+**/__pycache__/
