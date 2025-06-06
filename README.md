@@ -22,7 +22,7 @@
 | **16** | Packages / PyPI / pip / cowsay            | `cow_say.py`    |  
 | **17** | API / 'requests' Package / JSON           | `itunes.py`     |  
 | **18** | Creating My Own Module / '\_\_name\_\_'   | `my_say.py`     |  
-| **19** | Unit Testing                              | `test_square.py`|  
+| **19** | Unit Testing / 'assert' / pytest          | `test_square.py`|  
       
 <!--       
 | **9**  | Dictionaries                       | `phonebook.py`  |
