@@ -68,8 +68,10 @@ def test_negative_numbers():
 def test_zero():
     assert square(0) == 0
 
-# $ pip install pytest
+# https://youtu.be/nLRL_NcnK-4?t=24459
+# `$ pip install pytest`
 # import pytest in order to use pytest features like `raises` to test for exceptions.
+
 import pytest
 
 def test_str():
