@@ -23,7 +23,8 @@
 | **17** | API / 'requests' Package / JSON           | `itunes.py`     |  
 | **18** | Creating My Own Module / '\_\_name\_\_'   | `my_say.py`     |  
 | **19** | Unit Testing / 'assert' / pytest          | `test_square.py`|    
-| **20** | Testing Directories / '\_\_init.py\_\_'   | `greeting.py`   |  
+| **20** | Testing Directories / '\_\_init.py\_\_'   | `greeting.py`   |    
+| **21** | File I/O                                  | `locations.py`  |  
       
 <!--       
 | **9**  | Dictionaries                       | `phonebook.py`  |
