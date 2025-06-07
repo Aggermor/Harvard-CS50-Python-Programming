@@ -1,7 +1,7 @@
 # https://youtu.be/nLRL_NcnK-4?t=25229
 
 def main():
-    v2()
+    v3()
 
 # This implementation doesn't save the locations to a file. Once the program ends, the locations will be lost.
 def v1():
@@ -38,5 +38,29 @@ def v2():
         if location != locations[-1]: # if it's not the last location in locations, print a comma for better formatting
             print(", ", end="")
     print()  # Print a newline for better formatting
+
+# Pyhtonic convention is to use the `with` statement when working with files. This ensures that the file is properly closed after its suite finishes, even if an error is raised.
+def v3():
+    location = input("Enter a location: ")
+
+    # you don't need to explicitly close the file when using `with`, it will automatically close the file when the block is exited.
+    with open("locations.txt", "a") as file:  # Using `with` statement to handle file operations automatically
+        file.write(location + "\n")
+
+    locations = []
+    with open("locations.txt") as file: # You don't need to specify the mode when opening a file for reading, as "r" is the default mode. 
+        for line in file:
+            locations.append(line.strip()) # this is appending to the list `locations`, not the file.
     
+    locations.sort()  # Sort the locations in place
+
+    print("Sorted locations in `locations.txt`: ", end="")
+    for location in locations:
+        if location != locations[-1]:
+            print(location, end=", ")
+        else:
+            print(location, end="")
+    print()
+
+# --- main() function --- #
 main()
